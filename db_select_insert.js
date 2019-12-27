@@ -7,9 +7,9 @@ router.get('/', function(req, res) {
 })
 
 router.post('/', (req, res) => {
-    const { customer, thing, price } = req.body 
+    const { price, customer, thing, time } = req.body 
     db.run(
-        `INSERT INTO Kids VALUES (NULL, '${customer}','${thing}','${price}')`
+        `INSERT INTO Kids VALUES (NULL, '${customer}','${thing}','${price}', '${time}')`
     ) 
     res.sendStatus(200) 
 })

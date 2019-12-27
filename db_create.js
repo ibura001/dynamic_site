@@ -5,7 +5,7 @@ const DB = new sqlite3.Database(DB_PATH)
 DB.serialize(() => {
     
     DB.run(
-        'CREATE TABLE IF NOT EXISTS Kids (id INTEGER PRIMARY KEY UNIQUE, thing TEXT, price TEXT, customer TEXT)'
+        'CREATE TABLE IF NOT EXISTS Kids (id INTEGER PRIMARY KEY UNIQUE, thing TEXT, price TEXT, customer TEXT, time TEXT)'
     )
 })
 module.exports = DB
