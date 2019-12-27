@@ -1,0 +1,117 @@
+header
+{
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  
+}
+
+body
+{
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+  background:url("my_bg.jpg");
+
+}
+
+footer
+{
+  color: #797657b4;
+  font-style: italic;
+  text-align: center;
+}
+
+h2
+{
+  color: rgb(5, 19, 78);
+  text-align: center;
+}
+
+span
+{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.grad a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+a:hover {background-position: right center;}
+
+
+.column 
+{
+  padding: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+
+  display: inline-block;
+  vertical-align: bottom;
+  height: 8%;
+  width: 13%;
+}
+
+.column-1
+{
+  padding: 60px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+  .column-header
+  {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 6%;
+  }
+
+
+
+  .logo
+  {
+    text-align: left;
+    border-radius: 50%;
+    vertical-align: 0%;
+    margin-left: 3%;
+  }
+
+  .main-center
+  {
+    text-align: center;
+    font-size: 120%;
+  }
+
+  .page-title {
+    color: rgb(5, 19, 78);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Verdana", sans-serif;
+    margin: 3%;
+  }
+
+  map {
+    display: inline;
+}
+
+tr {
+  border: 1px solid black;
+  
+}
+td {
+  border: 1px solid black;
+}

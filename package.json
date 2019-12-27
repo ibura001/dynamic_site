@@ -1,0 +1,21 @@
+{
+    "name": "dynamic-site",
+    "scripts": {
+        "start": "node server.js",
+        "test": "eslint ."
+    },
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run test"
+        }
+    },
+    "dependencies": {
+        "express": "~4.16.1",
+        "prettier": "^1.19.1",
+        "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "husky": "^3.1.0"
+    }
+}
