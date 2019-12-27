@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router() 
 router.use('/public', express.static('public')) 
-router.get('/public/lab', function(req, res) {
+router.get('/public', function(req, res) {
    
-    res.sendFile(__dirname + '/public/lab.html') 
+    res.sendFile(__dirname + '/public/main_blackberry.html') 
 })
-router.get('/', function(req, res) {
+router.get('/public/page_1_blackberry', function(req, res) {
     res.sendFile(__dirname + '/public/page_1_blackberry.html')
 })
 router.get('/public/page_2_blackberry', function(req, res) {
