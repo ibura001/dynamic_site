@@ -3,7 +3,7 @@ const router = express.Router()
 router.use('/public', express.static('public')) 
 router.get('/', function(req, res) {
    
-    res.sendFile(__dirname + '/public/main_blackberry.html') 
+    res.sendFile(__dirname + '/public/lab.html') 
 })
 router.get('/public/page_1_blackberry', function(req, res) {
     res.sendFile(__dirname + '/public/page_1_blackberry.html')
